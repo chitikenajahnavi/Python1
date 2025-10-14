@@ -1,0 +1,3 @@
+weight_kilogram=int(input("enter the weight:"))
+total_weight=weight_kilogram*2.2
+print("weight in pounds:",total_weight)
