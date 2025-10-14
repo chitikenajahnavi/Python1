@@ -1,0 +1,6 @@
+import numpy as np
+ arr=np.array([10,20,30,40])
+ print("array:",arr)
+ print("second elements:",arr[1])
+ print("data type:",arr.dtype)
+ print("shape:",arr.shape)
