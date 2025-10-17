@@ -1,0 +1,3 @@
+df.loc[df['name']=='James','name']='suresh'
+print("\nAfter changing James to Suresh:")
+print(df)
