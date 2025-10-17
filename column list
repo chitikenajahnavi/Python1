@@ -1,0 +1,3 @@
+columns_list=list(df.columns)
+print("\ncolumns headers list:")
+print(columns_list)
