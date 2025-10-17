@@ -1,0 +1,12 @@
+import numpy as np
+arr=np.array([5,6,1,2,4,3,8,9])
+print("\noriginal array:",arr)
+max_value=np.max(arr)
+min_value=np.min(arr)
+max_index=np.argmax(arr)
+min_index=np.argmin(arr)
+print("\nmaximum value:",max_value,"at index:",max_index)
+print("minimum value:",min_value,"at index:",min_index)
+print("\nunique value:",np.unique(arr))
+print("count of each element:",np.bincount(arr))
+print("representation of array(repr):",repr(arr))
