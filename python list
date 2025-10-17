@@ -1,0 +1,3 @@
+list_data=series.tolist()
+print("python list:",list_data)
+print("type of list_data:",type(list_data))
